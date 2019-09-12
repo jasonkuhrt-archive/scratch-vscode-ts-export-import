@@ -4,22 +4,19 @@
 
 # TS + VSCode Import/Export
 
-Test drive the import/export space of TS and VSCode workflow support.
+VSCode `1.38.0` TypeScript `3.6.3`
 
-```
-VSCode version = 1.38.0
-TypeScript version = 3.6.3
-```
+Test drive the import/export space of TS and VSCode workflow support.
 
 toc::[]
 
-### Cases
+## Cases
 
-#### Import of generic identifier
+### Import of generic identifier
 
 ##### Result
 
-Multiple auto-import hints. User can differentiate by going over each option and seeing the `from` differences. Does not import qualified. As a user, working with generic names intended to work by namespace, this is probable not what you want. Namespaced auto-import is an [open issue on TS repo](#namespaced-auto-import).
+Multiple auto-import hints. User can differentiate by going over each option and seeing the `from` differences. Does not import qualified. As a user, working with generic names intended to work by namespace, this is probable not what you want. Namespaced auto-import is an link:#namespaced-auto-import[open issue on TS repo].
 
 ##### Example
 
@@ -29,11 +26,11 @@ image::assets/generic-autoimport-hint1.png[]
 image::assets/generic-autoimport-hint2.png[]
 image::assets/generic-autoimport-result.png[]
 
-> What the user probably actually wanted. Namespaced auto-import is an [open issue on TS repo](#namespaced-auto-import)
+> What the user probably actually wanted. Namespaced auto-import is an link:#namespaced-auto-import[open issue on TS repo]
 
 image::assets/generic-autoimport-actually-desired.png[]
 
-#### Import from module with both named & default exports
+### Import from module with both named & default exports
 
 ##### Result
 
@@ -44,7 +41,7 @@ As expected.
 image::assets/import-from-named-default-module.png[]
 image::assets/import-from-named-default-module-result.png[]
 
-#### Identifier in both named & default export position
+### Identifier in both named & default export position
 
 ##### Result
 
@@ -57,11 +54,11 @@ image::./assets/named-and-default-1.png[]
 image::assets/named-and-default-2.png[]
 image::assets/named-and-default-result.png[]
 
-### Links
+## Links
 
-##### Namespaced Auto-Import
+#### Namespaced Auto-Import
 
-- https://github.com/microsoft/TypeScript/issues/23830[Namespaced Auto-Import]
+- https://github.com/microsoft/TypeScript/issues/23830[Namespaced Auto-Import 1]
 - https://github.com/microsoft/TypeScript/issues/19630[Namespaced Auto-Import 2]
 
 #### Other
