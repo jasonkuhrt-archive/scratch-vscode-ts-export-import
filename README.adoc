@@ -62,4 +62,6 @@ image::assets/named-and-default-result.png[]
 
 #### Other
 
-- https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html[Basarat Against Defaults and Other Things]
+- https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html[(Living Document) Basarat Against Defaults]
+- https://humanwhocodes.com/blog/2019/01/stop-using-default-exports-javascript-module[(2019) Nicholas C. Zakas Against Defaults (long detailed article)]
+- https://twitter.com/sebmarkbage[Sebastian Markbåge] has stated (cannot find tweet link) that default exports were probably a language mistake, driven mostly by wide spread use of the pattern in Node/CommonJS]
