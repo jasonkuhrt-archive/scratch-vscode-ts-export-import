@@ -62,6 +62,12 @@ image::assets/named-and-default-result.png[]
 
 #### Other
 
+- https://twitter.com/sebmarkbage[Sebastian Markbåge] has stated (cannot find tweet link) that default exports were probably a language mistake, driven mostly by wide spread use of the pattern in Node/CommonJS]
 - https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html[(Living Document) Basarat Against Defaults]
 - https://humanwhocodes.com/blog/2019/01/stop-using-default-exports-javascript-module[(2019) Nicholas C. Zakas Against Defaults (long detailed article)]
-- https://twitter.com/sebmarkbage[Sebastian Markbåge] has stated (cannot find tweet link) that default exports were probably a language mistake, driven mostly by wide spread use of the pattern in Node/CommonJS]
++
+There is a factual mistake in this article: 
++
+> This type of functionality isn’t possible when using default exports because there is no canonical name for things you want to import.
++
+It is, as we saw link:#identifier-in-both-named-default-export-position[above].
