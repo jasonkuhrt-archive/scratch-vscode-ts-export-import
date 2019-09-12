@@ -13,9 +13,9 @@ TypeScript version = 3.6.3
 
 toc::[]
 
-### Cases
+## Cases
 
-#### Import of generic identifier
+### Import of generic identifier
 
 ##### Result
 
@@ -33,7 +33,7 @@ image::assets/generic-autoimport-result.png[]
 
 image::assets/generic-autoimport-actually-desired.png[]
 
-#### Import from module with both named & default exports
+### Import from module with both named & default exports
 
 ##### Result
 
@@ -44,7 +44,7 @@ As expected.
 image::assets/import-from-named-default-module.png[]
 image::assets/import-from-named-default-module-result.png[]
 
-#### Identifier in both named & default export position
+### Identifier in both named & default export position
 
 ##### Result
 
@@ -57,9 +57,9 @@ image::./assets/named-and-default-1.png[]
 image::assets/named-and-default-2.png[]
 image::assets/named-and-default-result.png[]
 
-### Links
+## Links
 
-##### Namespaced Auto-Import
+#### Namespaced Auto-Import
 
 - https://github.com/microsoft/TypeScript/issues/23830[Namespaced Auto-Import]
 - https://github.com/microsoft/TypeScript/issues/19630[Namespaced Auto-Import 2]
