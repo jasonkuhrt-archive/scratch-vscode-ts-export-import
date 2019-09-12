@@ -12,7 +12,18 @@ toc::[]
 
 ## Cases
 
-### Import of generic identifier
+### Import of default export
+
+##### Result
+
+As expected. The identifier nameused matches how the variable was defined in the source module. Example below makes this clear.
+
+##### Example
+
+image::assets/default-hint.png[]
+image::assets/default-result.png[]
+
+### Import of generically named export
 
 ##### Result
 
@@ -28,18 +39,7 @@ image::assets/generic-autoimport-result.png[]
 
 image::assets/generic-autoimport-actually-desired.png[]
 
-### Import from module with both named & default exports
-
-##### Result
-
-As expected.
-
-##### Example
-
-image::assets/import-from-named-default-module.png[]
-image::assets/import-from-named-default-module-result.png[]
-
-### Identifier in both named & default export position
+### Import of something that is both a named & default export
 
 ##### Result
 
@@ -52,6 +52,17 @@ Slightly buggy. Presumably non-issue in near future. OK if named import is not c
 image::./assets/named-and-default-1.png[]
 image::assets/named-and-default-2.png[]
 image::assets/named-and-default-result.png[]
+
+### Import of named export from module including default export
+
+##### Result
+
+As expected.
+
+##### Example
+
+image::assets/import-from-named-default-module.png[]
+image::assets/import-from-named-default-module-result.png[]
 
 ## Links
 
@@ -66,8 +77,8 @@ image::assets/named-and-default-result.png[]
 - https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html[(Living Document) Basarat Against Defaults]
 - https://humanwhocodes.com/blog/2019/01/stop-using-default-exports-javascript-module[(2019) Nicholas C. Zakas Against Defaults (long detailed article)]
 +
-There is a factual mistake in this article: 
+There is a factual mistake in this article:
 +
 > This type of functionality isn’t possible when using default exports because there is no canonical name for things you want to import.
 +
-It is, as we saw link:#identifier-in-both-named-default-export-position[above].
+It is, as we saw link:#import-of-default-export[above].
