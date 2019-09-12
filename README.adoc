@@ -58,7 +58,7 @@ image::assets/named-and-default-result.png[]
 
 #### Namespaced Auto-Import
 
-- https://github.com/microsoft/TypeScript/issues/23830[Namespaced Auto-Import]
+- https://github.com/microsoft/TypeScript/issues/23830[Namespaced Auto-Import 1]
 - https://github.com/microsoft/TypeScript/issues/19630[Namespaced Auto-Import 2]
 
 #### Other
