@@ -1,1 +1,3 @@
-ba
+import { run } from "./b";
+
+run
