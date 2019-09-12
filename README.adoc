@@ -16,7 +16,7 @@ toc::[]
 
 ##### Result
 
-Multiple auto-import hints. User can differentiate by going over each option and seeing the `from` differences. Does not import qualified. As a user, working with generic names intended to work by namespace, this is probable not what you want. Namespaced auto-import is an [open issue on TS repo](#namespaced-auto-import).
+Multiple auto-import hints. User can differentiate by going over each option and seeing the `from` differences. Does not import qualified. As a user, working with generic names intended to work by namespace, this is probable not what you want. Namespaced auto-import is an link:#namespaced-auto-import[open issue on TS repo].
 
 ##### Example
 
@@ -26,7 +26,7 @@ image::assets/generic-autoimport-hint1.png[]
 image::assets/generic-autoimport-hint2.png[]
 image::assets/generic-autoimport-result.png[]
 
-> What the user probably actually wanted. Namespaced auto-import is an [open issue on TS repo](#namespaced-auto-import)
+> What the user probably actually wanted. Namespaced auto-import is an link:#namespaced-auto-import[open issue on TS repo]
 
 image::assets/generic-autoimport-actually-desired.png[]
 
