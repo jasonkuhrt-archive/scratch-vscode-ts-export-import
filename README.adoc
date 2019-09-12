@@ -20,10 +20,8 @@ Multiple auto-import hints. User can differentiate by going over each option and
 
 ##### Example
 
-
-
-image::assets/generic-autoimport-hint1.png[]
 image::assets/generic-autoimport-hint2.png[]
+image::assets/generic-autoimport-hint1.png[]
 image::assets/generic-autoimport-result.png[]
 
 > What the user probably actually wanted. Namespaced auto-import is an link:#namespaced-auto-import[open issue on TS repo]
@@ -50,6 +48,7 @@ VSCode presents two auto-complete hints. Selecting either produces same result: 
 Slightly buggy. Presumably non-issue in near future. OK if named import is not common case.
 
 ##### Example
+
 image::./assets/named-and-default-1.png[]
 image::assets/named-and-default-2.png[]
 image::assets/named-and-default-result.png[]
